@@ -1,0 +1,33 @@
+[project]
+name = "svgobjs"
+dynamic = ["version"]
+dependencies = []
+authors = [
+  { name="Kennedy Richard", email="kennedy@kennedyrichard.com" },
+]
+description = "A generalist Python node editor"
+keywords = [
+    "library",
+    "svg",
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: Implementation :: CPython",
+]
+license = { text="Unlicense" }
+
+[project.urls]
+"Source Code" = "https://github.com/IndieSmiths/svgobjs"
+Donate = "https://indiesmiths.com/donate"
+
+
+[build-system]
+requires = ["setuptools>=59.6"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "svgobjs.__version__"}
