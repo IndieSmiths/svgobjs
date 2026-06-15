@@ -1,0 +1,2 @@
+(A) comment that relying on simple scaling (from transforms or external libraries) wouldn't be enough due to stroke width
+(A) comment that managing the subpackage as git submodule wouldn't fit our purpose, as each subpackage copy has no ties to each other, only the obligation to serve the main project
