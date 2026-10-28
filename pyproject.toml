@@ -5,7 +5,7 @@ dependencies = []
 authors = [
   { name="Kennedy Richard", email="kennedy@kennedyrichard.com" },
 ]
-description = "A generalist Python node editor"
+description = "A library to build SVG files programmatically"
 keywords = [
     "library",
     "svg",
